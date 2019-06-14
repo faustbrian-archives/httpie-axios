@@ -84,6 +84,6 @@
 		"tslint": "^5.17.0",
 		"tslint-config-prettier": "^1.18.0",
 		"type-fest": "^0.5.2",
-		"typescript": "^3.5.1"
+		"typescript": "^3.5.2"
 	}
 }
