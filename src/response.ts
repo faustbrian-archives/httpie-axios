@@ -7,7 +7,12 @@ export class Response implements IResponse {
 	private readonly statusMessage: string | undefined;
 	private readonly headers: Record<string, Primitive>;
 
-	public constructor({ body, statusCode, statusMessage, headers }: IResponseAttributes) {
+	public constructor({
+		body,
+		statusCode,
+		statusMessage,
+		headers,
+	}: IResponseAttributes) {
 		this.body = body || undefined;
 		this.statusCode = statusCode || undefined;
 		this.statusMessage = statusMessage || undefined;
